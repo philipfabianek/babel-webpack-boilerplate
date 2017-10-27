@@ -1,5 +1,15 @@
 @import "./variables";
-@import "./mixins/media-queries";
+
 @import "./base";
 
-@import "./components/main";
+@import "./mixins/boilerplate-properties";
+@import "./mixins/media-queries";
+@import "./mixins/browser-specific-properties";
+@import "./mixins/transitions";
+
+@import "./components/reusable/boxed-view";
+@import "./components/reusable/button";
+@import "./components/reusable/image";
+@import "./components/reusable/wrapper";
+
+@import "./components/unique/main";

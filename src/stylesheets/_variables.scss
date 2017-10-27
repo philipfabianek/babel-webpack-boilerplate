@@ -3,10 +3,15 @@ $grey: #cccccc;
 $light-grey: #f4f4f4;
 $dark-grey: #777777;
 
+$white: #ffffff;
+$black: #000000;
+
 // Body
-$body-background-color: #fafafa;
-$body-default-color: #333333;
-$body-default-font-family: Helvetica, Arial, sans-serif;
+$body-default-color: $black;
+$body-default-font-family: Raleway, Helvetica, Arial, sans-serif;
+
+// Site
+$site-max-width: 80rem;
 
 // Spacing
 $space: 1.4rem;
@@ -14,9 +19,22 @@ $large-space: 2.8rem;
 $site-max-width: 100rem;
 
 // Font sizes
-$base-font-size: 1.4rem;
-$large-font-size: 2.2rem;
+$smallest-font-size: 1.4rem;
+$smaller-font-size: 1.8rem;
+$small-font-size: 2rem;
+$base-font-size: 2.4rem;
+$medium-font-size: 2.8rem;
+$large-font-size: 3rem;
+$larger-font-size: 3.2rem;
+$very-large-font-size: 4rem;
+$largest-font-size: 5rem;
+$huge-font-size: 6rem;
+$pre-enormous-font-size: 7rem;
+$enormous-font-size: 8rem;
 
 // Form inputs
 $input-border: $grey;
 $input-spacing: 1rem;
+
+// Page
+$page-max-width: 80rem;
